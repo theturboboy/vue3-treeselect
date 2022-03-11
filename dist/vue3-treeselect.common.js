@@ -7465,6 +7465,7 @@ const Tip_exports_ = Tipvue_type_script_lang_js;
 
 
 
+
 function _isSlot(s) {
   return typeof s === 'function' || Object.prototype.toString.call(s) === '[object Object]' && !Object(external_commonjs_vue_commonjs2_vue_root_Vue_["isVNode"])(s);
 }
@@ -7707,7 +7708,7 @@ var Option = {
 
     return Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createVNode"])("div", {
       "class": listItemClass
-    }, [this.renderOption(), node.isBranch ? Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createVNode"])(Object(external_commonjs_vue_commonjs2_vue_root_Vue_["resolveComponent"])("transition"), {
+    }, [this.renderOption(), node.isBranch ? Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createVNode"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Transition"], {
       "name": "vue-treeselect__list--transition"
     }, _isSlot(_slot = this.renderSubOptionsList()) ? _slot : {
       default: function _default() {
@@ -7726,6 +7727,7 @@ const Option_exports_ = Optionvue_type_script_lang_js;
 
 /* harmony default export */ var components_Option = (Option_exports_);
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/@vue/cli-service/node_modules/vue-loader-v16/dist??ref--0-1!./src/components/Menu.vue?vue&type=script&lang=js
+
 
 
 
@@ -8007,7 +8009,7 @@ var directionMap = {
       "ref": "menu-container",
       "class": "vue-treeselect__menu-container",
       "style": this.menuContainerStyle
-    }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createVNode"])(Object(external_commonjs_vue_commonjs2_vue_root_Vue_["resolveComponent"])("transition"), {
+    }, [Object(external_commonjs_vue_commonjs2_vue_root_Vue_["createVNode"])(external_commonjs_vue_commonjs2_vue_root_Vue_["Transition"], {
       "name": "vue-treeselect__menu--transition"
     }, Menuvue_type_script_lang_js_isSlot(_slot = this.renderMenu()) ? _slot : {
       default: function _default() {

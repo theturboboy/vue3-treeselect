@@ -1,4 +1,5 @@
 <script>
+  import { Transition } from 'vue';
   import { MENU_BUFFER } from '../constants'
   import { watchSize, setupResizeAndScrollEventListeners } from '../utils'
   import Option from './Option'
@@ -302,9 +303,9 @@
     render() {
       return (
         <div ref="menu-container" class="vue-treeselect__menu-container" style={this.menuContainerStyle}>
-          <transition name="vue-treeselect__menu--transition">
+          <Transition name="vue-treeselect__menu--transition">
             {this.renderMenu()}
-          </transition>
+          </Transition>
         </div>
       )
     },

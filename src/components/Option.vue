@@ -1,4 +1,5 @@
 <script>
+  import { Transition } from 'vue';
   import { UNCHECKED, INDETERMINATE, CHECKED } from '../constants'
   import { onLeftClick } from '../utils'
   import Tip from './Tip'
@@ -272,9 +273,9 @@
         <div class={listItemClass}>
           {this.renderOption()}
           {node.isBranch ? (
-            <transition name="vue-treeselect__list--transition">
+            <Transition name="vue-treeselect__list--transition">
               {this.renderSubOptionsList()}
-            </transition>
+            </Transition>
           ) : ''}
         </div>
       )
