@@ -1,5 +1,5 @@
 {
-  "name": "vue3-treeselect",
+  "name": "@theturboboy/vue3-treeselect",
   "version": "0.1.2",
   "description": "Tree select hierarchical component for vue 3",
   "main": "dist/vue3-treeselect.common.js",
