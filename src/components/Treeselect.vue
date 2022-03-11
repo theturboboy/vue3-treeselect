@@ -1,5 +1,5 @@
 <template>
-  <div ref="wrapper" :class=wrapperClass>
+  <div ref="wrapper" :class="wrapperClass">
     <HiddenFields />
     <Control ref="control" />
     <MenuPortal v-if="appendToBody" ref="portal" />
@@ -8,13 +8,13 @@
 </template>
 
 <script>
+  import {defineComponent} from 'vue';
   import treeselectMixin from '../mixins/treeselectMixin'
   import HiddenFields from './HiddenFields'
   import Control from './Control'
   import Menu from './Menu'
   import MenuPortal from './MenuPortal'
 
-  import {defineComponent,h} from 'vue';
   export default defineComponent({
     name: 'vue-treeselect',
     mixins: [ treeselectMixin ],
@@ -40,15 +40,5 @@
         }
       },
     },
-
-    // render() {
-    //   return (
-    //     <div ref="wrapper" class={this.wrapperClass}>
-    //       <HiddenFields />
-    //       <Control ref="control" />
-    //       {this.appendToBody ? <MenuPortal ref="portal" /> : <Menu ref="menu" />}
-    //     </div>
-    //   )
-    // },
   })
 </script>
