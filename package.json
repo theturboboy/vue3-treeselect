@@ -1,10 +1,10 @@
 {
   "name": "vue3-treeselect",
   "version": "0.1.2",
-  "description": "Tree select hierarchical component for vue 3 (next)",
+  "description": "Tree select hierarchical component for vue 3",
   "main": "dist/vue3-treeselect.common.js",
   "unpkg": "dist/vue3-treeselect.umd.js",
-  "author": "megafetis",
+  "author": "theturboboy",
   "scripts": {
     "build": "vue-cli-service build --target lib --name vue3-treeselect ./src/index.js && webpack --env.production",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -54,13 +54,13 @@
     "vue": "^3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/megafetis/vue3-treeselect/issues"
+    "url": "https://github.com/theturboboy/vue3-treeselect/issues"
   },
   "browserslist": [
     "Android >= 4.0",
     "iOS >= 8"
   ],
-  "homepage": "https://github.com/megafetis/vue3-treeselect",
+  "homepage": "https://github.com/theturboboy/vue3-treeselect",
   "files": [
     "dist/*.js",
     "dist/*.css",
@@ -86,7 +86,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/megafetis/vue3-treeselect.git"
+    "url": "git+https://github.com/theturboboy/vue3-treeselect.git"
   },
   "dependencies": {}
 }
