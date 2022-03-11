@@ -870,7 +870,7 @@ export default {
       this.$emit('search-change', this.trigger.searchQuery, this.getInstanceId())
     },
 
-    value() {
+    modelValue() {
       const nodeIdsFromValue = this.extractCheckedNodeIdsFromValue()
       const hasChanged = quickDiff(nodeIdsFromValue, this.internalValue)
       if (hasChanged) this.fixSelectedNodeIds(nodeIdsFromValue)
