@@ -31,7 +31,7 @@ Breaking changes from his library:
 It's recommended to install vue3-treeselect via npm, and build your app using a bundler like [webpack](https://webpack.js.org/).
 
 ```bash
-npm install --save vue3-treeselect
+npm install --save vue3-acies-treeselect
 ```
 
 This example shows how to integrate vue3-treeselect with your [Vue SFCs](https://vuejs.org/v2/guide/single-file-components.html).
